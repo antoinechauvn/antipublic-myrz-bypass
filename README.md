@@ -68,7 +68,7 @@ def key_generate():
 ```
 
 Avec un accès utilisateur payant par la suite on se chargera d'activer notre clé.
-```
+```python
 cookies = {'login': 'nppr22',
            'user_hash': 'a7ebc0faad8eb7c9dda59b2272226c1f',
            'PHPSESSID': 'kn2pc9s2m17k19o8r7fhbkpio5'}
