@@ -83,3 +83,22 @@ def key_activation(key):
     else:
         print(f"{colorama.Fore.LIGHTRED_EX}[-]Error, key {key} has expired")
 ```
+
+## Utilisation
+
+```
+usage: main.exe [-h] [-g] [-d] [-c] [-k KEY] [-e EMAIL]
+
+Antipublic.One Tool by Armanta#6184
+
+options:
+  -h, --help            show this help message and exit
+  -g, --generate        Generates a 16 bytes hexadecimal key
+  -d, --count           Get database size
+  -c, --check           Check an email address or a key
+  -k KEY, --key KEY     Check a key
+  -e EMAIL, --email EMAIL
+                        Check an email
+```
+![image](https://user-images.githubusercontent.com/83721477/177056413-04e40a27-b1ba-4c14-9832-ad47da171d05.png)
+
