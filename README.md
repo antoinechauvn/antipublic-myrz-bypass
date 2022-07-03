@@ -55,6 +55,7 @@ def key_check(key):
 ```
 
 <hr>
+
 ### Générer une clé et l'activer
 
 On va créer une clé random basée sur 16 octets
@@ -64,4 +65,19 @@ def key_generate():
     random_key = secrets.token_hex(16)  # https://docs.python.org/3/library/secrets.html#secrets.token_hex
     print(f"{colorama.Fore.LIGHTYELLOW_EX}[~]Activating {random_key}")
     key_activation(random_key)
+```
+
+Avec un accès utilisateur payant par la suite on se chargera d'activer notre clé.
+```
+cookies = {'login': 'nppr22',
+           'user_hash': 'a7ebc0faad8eb7c9dda59b2272226c1f',
+           'PHPSESSID': 'kn2pc9s2m17k19o8r7fhbkpio5'}
+
+def key_activation(key):
+    req = requests.post('https://antipublic.one/main/account.php', data={'your_key': key}, cookies=cookies)
+    data = req.json()
+    if data["success"]:
+        print(f"{colorama.Fore.LIGHTGREEN_EX}[+]{key}")
+    else:
+        print(f"{colorama.Fore.LIGHTRED_EX}[-]Error, key {key} has expired")
 ```
