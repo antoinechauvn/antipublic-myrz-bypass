@@ -56,7 +56,9 @@ def key_check(key):
 
 <hr>
 ### Générer une clé et l'activer
+
 On va créer une clé random basée sur 16 octets
+
 ```python
 def key_generate():
     random_key = secrets.token_hex(16)  # https://docs.python.org/3/library/secrets.html#secrets.token_hex
