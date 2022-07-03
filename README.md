@@ -1,5 +1,5 @@
 # antipublic-myrz-bypass
-Exploit for Antipublic.one
+Ce repository n'est qu'un Proof of Concept, n'utilisez pas cela dans le but de nuire ou de façon illégale
 
 ### Qu'est-ce que MYRZ?
 >AntiPublic MYRZ de vérification de base privée dans le but de vérifier la sécurité de ses données.<br>
