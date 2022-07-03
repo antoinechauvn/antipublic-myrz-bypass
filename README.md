@@ -1,9 +1,11 @@
 # antipublic-myrz-bypass
 Ce repository n'est qu'un **Proof of Concept**, n'utilisez pas cela dans le but de nuire ou de façon illégale
 
-### Qu'est-ce que MYRZ (https://antipublic.one/main/)?
+### Qu'est-ce que MYRZ ?
 >AntiPublic MYRZ de vérification de base privée dans le but de vérifier la sécurité de ses données.<br>
 Il est accessible au prix de 3,5 $
+
+https://antipublic.one/main/
 
 ## Fonctionnement
 Antipublic Myrz utilise le principe de `GUID` introduit par microsoft afin de garantir que l'authenticité du destinataire.
